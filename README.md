@@ -1,2 +1,6 @@
 # Sound-Hunter
-This project aims to build a music recommender system in Python similar to what Spotify uses to suggest new artists to a user.
+This project aims to build a music recommender system in Python similar to what Spotify uses to suggest new artists to a user. This is a beginner project for me to learn more about machine learning concepts and their application. Refer to the Source Creator Here for the Source Code, but I want to learn from this and adapt it further ideally: https://github.com/musikalkemist/musiccollaborativefiltering
+
+This concept will attempt to make a user matrix and an artist matrix to perform Alternating Least Squares. This is so one can gauge who would be a good match for a given artist and which artist would be a good match for a given user. Then the programmer will try to connect to a data collection source called Last.fm which will fill in the user and artist matrices and connect the user IDs to an Artist's ID. This program should return a sparse matrix. This will allow me to write a class for retrieving the artist info and another class for matching the user preferences to a given artist.
+
+Next we utilize and implement Collaborative Filtering using the Alternating Least Squares method by pulling from an existing library called, "Implicit." This library will have a class to recommend artists for a given user using collaborative filtering models. 
